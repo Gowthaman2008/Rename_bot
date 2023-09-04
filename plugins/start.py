@@ -48,7 +48,7 @@ async def start(client, message):
         InlineKeyboardButton('⚙️ Help ⚙️', callback_data='help')
         ],[
         InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
-        ])
+        ]])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
     else:
@@ -99,7 +99,7 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton('⚙️ Help ⚙️', callback_data='help')
         ],[
         InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
-        ])
+        ]])
             )
     elif data == "help":
         await query.message.edit_text(
