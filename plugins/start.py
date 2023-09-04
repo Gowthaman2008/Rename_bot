@@ -37,25 +37,17 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !"
+    txt=f"**👋 Hello {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support**\n\nꜱᴇɴᴅ ᴍᴇ ᴀɴy ᴠɪᴅᴇᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+        InlineKeyboardButton("👨‍💻 Developer 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('Gᴍ Bᴏᴛᴢᴢ™', url='https://t.me/GM_Botzz'),
+        InlineKeyboardButton('💥 Support 💥', url='https://t.me/GM_Botzz_Support')
         ],[
-        InlineKeyboardButton('⚡️ About', callback_data='about'),
-        InlineKeyboardButton('🤕 Help', callback_data='help')
+        InlineKeyboardButton('⚡️ About ⚡', callback_data='about'),
+        InlineKeyboardButton('⚙️ Help ⚙️', callback_data='help')
         ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+WwDm2ByFlz80YTY9')
-        ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/mRiderDM'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/LazyDeveloperrr')
-        ]
+        InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
         ])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
@@ -97,26 +89,17 @@ async def cb_handler(client, query: CallbackQuery):
     if data == "start":
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
-            reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+            reply_markup=InlineKeyboardMarkup([[
+        InlineKeyboardButton("👨‍💻 Developer 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('Gᴍ Bᴏᴛᴢᴢ™', url='https://t.me/GM_Botzz'),
+        InlineKeyboardButton('💥 Support 💥', url='https://t.me/GM_Botzz_Support')
         ],[
-        InlineKeyboardButton('⚡️ About', callback_data='about'),
-        InlineKeyboardButton('🤕 Help', callback_data='help')
+        InlineKeyboardButton('⚡️ About ⚡', callback_data='about'),
+        InlineKeyboardButton('⚙️ Help ⚙️', callback_data='help')
         ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+WwDm2ByFlz80YTY9')
-        ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/mRiderDM'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/LazyDeveloperrr')
-        ]
-        ]
-                )
+        InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
+        ])
             )
     elif data == "help":
         await query.message.edit_text(
