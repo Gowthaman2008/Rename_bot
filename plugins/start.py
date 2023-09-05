@@ -88,7 +88,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
+            text=f"""**👋 Hello {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support**\n\nꜱᴇɴᴅ ᴍᴇ ᴀɴy ᴠɪᴅᴇᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !""",
             reply_markup=InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Developer 👨‍💻", callback_data='dev')
         ],[
@@ -106,11 +106,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://www.instagram.com/LazyDeveloperrr")
-               ],[
-               InlineKeyboardButton("❤️‍🔥 How to use me ? ❤️‍🔥", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-               ],[
-               InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/+WwDm2ByFlz80YTY9")
+               InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -123,11 +119,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/LazyDeveloperrr")
+               InlineKeyboardButton("❣️ Contact Developer ❣️", url="https://t.me/Gowthaman2008")
                ],[
-               InlineKeyboardButton("❤️‍🔥 How to make me ? ❤️‍🔥", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-               ],[
-                InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/+WwDm2ByFlz80YTY9")
+               InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
