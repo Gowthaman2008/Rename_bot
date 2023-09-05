@@ -133,9 +133,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Contact Developer ❣️", url="https://t.me/Gowthaman2008")
+               InlineKeyboardButton("🎭 Contact Developer 🎭", url="https://t.me/Gowthaman2008")
                ],[
-               InlineKeyboardButton("⚜️ Join Our Movie Channel ⚜️", url='https://t.me/GM_Botzz')
+               InlineKeyboardButton("Gᴍ Bᴏᴛᴢᴢ™", url='https://t.me/GM_Botzz')
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
