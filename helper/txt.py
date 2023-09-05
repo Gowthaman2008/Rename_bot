@@ -69,13 +69,14 @@ Example:- /set_caption 📕 File Name: {filename}
 
 #⚠️ don't remove our credits 🙏😢😢
     DEV_TXT = """
-<b><u>Special Thanks & Developers</b></u> 
+<b>👨‍💻𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: <a href=https://t.me/Gowthaman2008>𝙶𝚘𝚠𝚝𝚑𝚊𝚖𝚊𝚗⚡</a>
 
-» 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw>Watch Tutorial</a>
+📍𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰𝙽𝚈 𝙱𝙾𝚃
+📍𝚃𝙾 𝙱𝚄𝚈 𝚁𝙴𝙿𝙾
+📍𝚃𝙾 𝙱𝚄𝚈 𝙳𝙱
+📍𝙲𝙷𝙴𝙰𝙿 𝙿𝚁𝙸𝙲𝙴
+📍𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴
 
-• 😈 <a href=https://github.com/LazyDeveloperr>LazyDeveloper Github</a>
-• 😈 <a href=https://t.me/LazyDeveloper>LazyDeveloper Tg Channel</a>
-• 😈 <a href=https://t.me/mRiderDM>Direct-Msg-TG</a>
-• 😈 <a href=https://t.me/real_MoviesAdda1>Join Movies Adda</a>
-• 😈 <a href=https://t.me/GitHub_noob>Thanks- Github Noob</a>
+⚡ POWERED BY›› <a href=https://t.me/GM_Botzz> Gᴍ Bᴏᴛᴢᴢ™</a>
+  </b>
 """
